@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Prediction Model</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Flower Prediction Model</h1>
+    
+    <form id="predictForm">
+        <label for="feature1">Sepal Length (cm):</label>
+        <input type="number" id="feature1" step="any" required>
+        <br>
+
+        <label for="feature2">Sepal Width (cm):</label>
+        <input type="number" id="feature2" step="any" required>
+        <br>
+
+        <label for="feature3">Petal Length (cm):</label>
+        <input type="number" id="feature3" step="any" required>
+        <br>
+
+        <label for="feature4">Petal Width (cm):</label>
+        <input type="number" id="feature4" step="any" required>
+        <br>
+
+        <button type="submit">Get Prediction</button>
+        <button type="button" id="randomPredictionBtn">Random Prediction</button>
+    </form>
+
+    <p id="result"></p>
+    <p id="modelType"></p>
+    <p id="flowerType"></p>
+
+    <h3>Response Time vs. Iteration</h3>
+    <canvas id="responseTimeChart" width="400" height="200"></canvas>
+
+    <script>
+        const randomPredictionBtn = document.getElementById('randomPredictionBtn');
+        const predictForm = document.getElementById('predictForm');
+        const resultDiv = document.getElementById('result');
+        const modelTypeDiv = document.getElementById('modelType');
+        const flowerTypeDiv = document.getElementById('flowerType');
+        const responseTimeChart = document.getElementById('responseTimeChart').getContext('2d');
+        
+        let iterationData = []; // for prediction response times
+        let randomIterationData = []; // for random prediction response times
+
+        // Fetch prediction from backend
+        function getPrediction(features) {
+            return fetch('http://127.0.0.1:5000/predict', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ features })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.prediction !== undefined) {
+                    resultDiv.innerText = 'Prediction: ' + data.prediction;
+                    modelTypeDiv.innerText = 'Model: ' + data.model_type;
+                    flowerTypeDiv.innerText = 'Flower Type: ' + data.flower_type;
+                    return data;
+                } else {
+                    resultDiv.innerText = 'Error: Unexpected response';
+                    return null;
+                }
+            })
+            .catch(error => {
+                resultDiv.innerText = 'Error: ' + error.message;
+                return null;
+            });
+        }
+
+        // Handle form submission for prediction
+        predictForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const features = [
+                parseFloat(document.getElementById('feature1').value),
+                parseFloat(document.getElementById('feature2').value),
+                parseFloat(document.getElementById('feature3').value),
+                parseFloat(document.getElementById('feature4').value),
+            ];
+
+            // Collect response times for graph (Prediction)
+            collectResponseTimes(features, 'predict');
+        });
+
+        // Handle random prediction button click
+        randomPredictionBtn.addEventListener('click', function() {
+            const randomFeatures = [
+                (Math.random() * (7 - 4) + 4).toFixed(1), // Random value between 4 and 7
+                (Math.random() * (4.5 - 2) + 2).toFixed(1), // Random value between 2 and 4.5
+                (Math.random() * (6 - 3) + 3).toFixed(1), // Random value between 3 and 6
+                (Math.random() * (2.5 - 1) + 1).toFixed(1), // Random value between 1 and 2.5
+            ];
+
+            // Collect response times for graph (Random Prediction)
+            collectResponseTimes(randomFeatures, 'random');
+        });
+
+        // Collect response times for iterations
+        function collectResponseTimes(features, type) {
+            const responseTimes = [];
+            const iterations = 10; // Set the number of iterations for testing
+
+            for (let i = 0; i < iterations; i++) {
+                const startTime = Date.now();
+                getPrediction(features)
+                    .then(() => {
+                        const endTime = Date.now();
+                        responseTimes.push((endTime - startTime) / 1000);  // Convert to seconds
+                        if (responseTimes.length === iterations) {
+                            // Update the correct graph data based on type
+                            if (type === 'predict') {
+                                iterationData = responseTimes;
+                            } else if (type === 'random') {
+                                randomIterationData = responseTimes;
+                            }
+                            updateChart();
+                        }
+                    })
+                    .catch(error => console.log('Error during iteration: ' + error.message));
+            }
+        }
+
+        // Update the chart with response time data
+        function updateChart() {
+            // Check if the chart is already instantiated
+            if (window.chart) {
+                // If chart already exists, update its data and redraw
+                window.chart.data.datasets[0].data = iterationData; // Blue: Prediction
+                window.chart.data.datasets[1].data = randomIterationData; // Red: Random Prediction
+                window.chart.update();
+            } else {
+                // If chart doesn't exist, create it
+                window.chart = new Chart(responseTimeChart, {
+                    type: 'line',
+                    data: {
+                        labels: Array.from({ length: 10 }, (_, i) => i + 1), // X-axis: Iterations 1-10
+                        datasets: [
+                            {
+                                label: 'Prediction Response Time (seconds)',
+                                data: iterationData,
+                                borderColor: 'rgba(75, 192, 192, 1)', // Blue color
+                                fill: false,
+                            },
+                            {
+                                label: 'Random Prediction Response Time (seconds)',
+                                data: randomIterationData,
+                                borderColor: 'rgba(255, 99, 132, 1)', // Red color
+                                fill: false,
+                            }
+                        ],
+                    },
+                    options: {
+                        scales: {
+                            x: { beginAtZero: true },
+                            y: { beginAtZero: true },
+                        },
+                    },
+                });
+            }
+        }
+    </script>
+</body>
+</html>
