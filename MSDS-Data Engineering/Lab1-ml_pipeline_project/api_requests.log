@@ -1,0 +1,342 @@
+2025-03-04 17:55:53,802 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 17:55:53,802 - [33mPress CTRL+C to quit[0m
+2025-03-04 17:55:53,803 -  * Restarting with stat
+2025-03-04 17:55:54,792 -  * Debugger is active!
+2025-03-04 17:55:54,811 -  * Debugger PIN: 117-451-080
+2025-03-04 17:57:25,652 - 127.0.0.1 - - [04/Mar/2025 17:57:25] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-04 17:57:43,888 - Timestamp: 2025-03-04 17:57:43, Features: [5.1, 3.5, 1.4, 0.2], Prediction: 0, Processing Time: 0.0159 sec
+2025-03-04 17:57:43,888 - 127.0.0.1 - - [04/Mar/2025 17:57:43] "POST /predict HTTP/1.1" 200 -
+2025-03-04 17:58:22,435 - Timestamp: 2025-03-04 17:58:22, Features: [6.0, 3.0, 4.5, 1.5], Prediction: 1, Processing Time: 0.0000 sec
+2025-03-04 17:58:22,435 - 127.0.0.1 - - [04/Mar/2025 17:58:22] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:05:04,324 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:05:04,324 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:05:04,324 -  * Restarting with stat
+2025-03-04 18:05:05,604 -  * Debugger is active!
+2025-03-04 18:05:05,620 -  * Debugger PIN: 117-451-080
+2025-03-04 18:07:26,991 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:07:26,991 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:07:26,991 -  * Restarting with stat
+2025-03-04 18:07:27,974 -  * Debugger is active!
+2025-03-04 18:07:27,993 -  * Debugger PIN: 117-451-080
+2025-03-04 18:09:49,780 -  * Detected change in 'c:\\Users\\nagen\\Downloads\\ml_pipeline_project\\server.py', reloading
+2025-03-04 18:09:50,027 -  * Restarting with stat
+2025-03-04 18:09:57,746 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:09:57,747 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:09:57,752 -  * Restarting with stat
+2025-03-04 18:10:00,402 -  * Debugger is active!
+2025-03-04 18:10:00,410 -  * Debugger PIN: 117-451-080
+2025-03-04 18:11:34,175 - 127.0.0.1 - - [04/Mar/2025 18:11:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:11:35,190 - 127.0.0.1 - - [04/Mar/2025 18:11:35] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:11:43,588 - 127.0.0.1 - - [04/Mar/2025 18:11:43] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:11:44,320 - 127.0.0.1 - - [04/Mar/2025 18:11:44] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:12:14,695 - 127.0.0.1 - - [04/Mar/2025 18:12:14] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:12:16,021 - 127.0.0.1 - - [04/Mar/2025 18:12:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:16:04,309 -  * Detected change in 'c:\\Users\\nagen\\Downloads\\ml_pipeline_project\\server.py', reloading
+2025-03-04 18:16:04,689 -  * Restarting with stat
+2025-03-04 18:16:17,056 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:16:17,056 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:16:17,059 -  * Restarting with stat
+2025-03-04 18:16:21,219 -  * Debugger is active!
+2025-03-04 18:16:21,238 -  * Debugger PIN: 117-451-080
+2025-03-04 18:16:32,819 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,825 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,825 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,833 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "OPTIONS /predict_multiple HTTP/1.1" 200 -
+2025-03-04 18:16:32,849 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,851 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,858 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,859 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,867 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,868 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,875 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,877 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,885 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,886 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,894 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,896 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,903 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,906 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,914 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,916 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,922 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,923 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:32,932 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:32,932 - 127.0.0.1 - - [04/Mar/2025 18:16:32] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,558 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,559 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,574 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,575 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,584 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,585 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,601 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,603 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,613 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,614 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,623 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,624 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,636 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,637 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,644 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,647 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,667 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,668 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,675 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,676 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:33,687 - Error: X has 1 features, but StandardScaler is expecting 4 features as input.
+2025-03-04 18:16:33,689 - 127.0.0.1 - - [04/Mar/2025 18:16:33] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:16:34,072 - 127.0.0.1 - - [04/Mar/2025 18:16:34] "POST /predict_multiple HTTP/1.1" 200 -
+2025-03-04 18:16:34,114 - 127.0.0.1 - - [04/Mar/2025 18:16:34] "POST /predict_multiple HTTP/1.1" 200 -
+2025-03-04 18:19:28,396 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:19:28,396 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:19:28,399 -  * Restarting with stat
+2025-03-04 18:19:32,333 -  * Debugger is active!
+2025-03-04 18:19:32,349 -  * Debugger PIN: 117-451-080
+2025-03-04 18:19:56,833 - 127.0.0.1 - - [04/Mar/2025 18:19:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:19:56,854 - Timestamp: 2025-03-04 18:19:56, Features: [5, 5, 4, 4], Prediction: 1, Processing Time: 0.0154 sec
+2025-03-04 18:19:56,856 - 127.0.0.1 - - [04/Mar/2025 18:19:56] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:21:54,518 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:21:54,518 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:21:54,522 -  * Restarting with stat
+2025-03-04 18:21:56,952 -  * Debugger is active!
+2025-03-04 18:21:56,959 -  * Debugger PIN: 117-451-080
+2025-03-04 18:24:08,261 -  * Detected change in 'c:\\Users\\nagen\\Downloads\\ml_pipeline_project\\server.py', reloading
+2025-03-04 18:24:08,529 -  * Restarting with stat
+2025-03-04 18:24:11,358 -  * Debugger is active!
+2025-03-04 18:24:11,369 -  * Debugger PIN: 117-451-080
+2025-03-04 18:24:34,411 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,412 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,414 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,416 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,418 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,423 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,428 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,434 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,437 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,441 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,444 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,482 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0358 sec
+2025-03-04 18:24:34,488 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,520 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0619 sec
+2025-03-04 18:24:34,525 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,542 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0767 sec
+2025-03-04 18:24:34,543 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,562 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0912 sec
+2025-03-04 18:24:34,563 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,579 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0840 sec
+2025-03-04 18:24:34,581 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,605 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0563 sec
+2025-03-04 18:24:34,606 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,608 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.1083 sec
+2025-03-04 18:24:34,610 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,624 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0844 sec
+2025-03-04 18:24:34,627 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0550 sec
+2025-03-04 18:24:34,628 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,632 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.1150 sec
+2025-03-04 18:24:34,632 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0379 sec
+2025-03-04 18:24:34,633 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,634 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,634 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,954 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0743 sec
+2025-03-04 18:24:34,954 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0628 sec
+2025-03-04 18:24:34,961 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,961 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0769 sec
+2025-03-04 18:24:34,969 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0722 sec
+2025-03-04 18:24:34,976 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,976 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0650 sec
+2025-03-04 18:24:34,977 - Timestamp: 2025-03-04 18:24:34, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0902 sec
+2025-03-04 18:24:34,978 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,978 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,980 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:34,982 - 127.0.0.1 - - [04/Mar/2025 18:24:34] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:35,027 - Timestamp: 2025-03-04 18:24:35, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0390 sec
+2025-03-04 18:24:35,034 - Timestamp: 2025-03-04 18:24:35, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0445 sec
+2025-03-04 18:24:35,041 - 127.0.0.1 - - [04/Mar/2025 18:24:35] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:35,042 - Timestamp: 2025-03-04 18:24:35, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0592 sec
+2025-03-04 18:24:35,047 - 127.0.0.1 - - [04/Mar/2025 18:24:35] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:35,056 - 127.0.0.1 - - [04/Mar/2025 18:24:35] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:35,057 - Timestamp: 2025-03-04 18:24:35, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0505 sec
+2025-03-04 18:24:35,064 - Timestamp: 2025-03-04 18:24:35, Features: [3, 3, 4, 4], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0287 sec
+2025-03-04 18:24:35,065 - 127.0.0.1 - - [04/Mar/2025 18:24:35] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:24:35,066 - 127.0.0.1 - - [04/Mar/2025 18:24:35] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:04,787 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.143:5000
+2025-03-04 18:27:04,788 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:27:04,791 -  * Restarting with stat
+2025-03-04 18:27:08,341 -  * Debugger is active!
+2025-03-04 18:27:08,357 -  * Debugger PIN: 117-451-080
+2025-03-04 18:27:29,265 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,267 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,269 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,272 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,275 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,277 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,283 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,286 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,288 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,291 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,295 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,320 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0227 sec
+2025-03-04 18:27:29,324 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,360 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0279 sec
+2025-03-04 18:27:29,363 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,379 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0712 sec
+2025-03-04 18:27:29,382 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,411 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0889 sec
+2025-03-04 18:27:29,413 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,415 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0710 sec
+2025-03-04 18:27:29,427 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0397 sec
+2025-03-04 18:27:29,429 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,433 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,451 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0844 sec
+2025-03-04 18:27:29,453 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,470 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0947 sec
+2025-03-04 18:27:29,475 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0259 sec
+2025-03-04 18:27:29,476 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,481 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,489 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0961 sec
+2025-03-04 18:27:29,491 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:27:29,495 - Timestamp: 2025-03-04 18:27:29, Features: [3, 3, 5, 5], Prediction: 2, Flower Type: Iris Virginica, Processing Time: 0.0532 sec
+2025-03-04 18:27:29,498 - 127.0.0.1 - - [04/Mar/2025 18:27:29] "POST /predict HTTP/1.1" 200 -
+2025-03-04 18:28:04,354 -  * Detected change in 'c:\\Users\\nagen\\Downloads\\ml_pipeline_project\\server.py', reloading
+2025-03-04 18:28:04,715 -  * Restarting with stat
+2025-03-04 18:28:07,733 -  * Debugger is active!
+2025-03-04 18:28:07,745 -  * Debugger PIN: 117-451-080
+2025-03-04 18:45:13,072 -  * Detected change in 'c:\\Users\\nagen\\Downloads\\ml_pipeline_project\\server.py', reloading
+2025-03-04 18:45:13,356 -  * Restarting with stat
+2025-03-04 18:57:13,358 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:57:13,358 - [33mPress CTRL+C to quit[0m
+2025-03-04 18:57:13,360 -  * Restarting with stat
+2025-03-04 18:57:15,810 -  * Debugger is active!
+2025-03-04 18:57:15,818 -  * Debugger PIN: 117-451-080
+2025-03-04 19:01:49,095 -  * Detected change in 'c:\\Users\\nagen\\Downloads\\ml_pipeline_project\\server.py', reloading
+2025-03-04 19:01:49,418 -  * Restarting with stat
+2025-03-04 19:02:01,280 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 19:02:01,281 - [33mPress CTRL+C to quit[0m
+2025-03-04 19:02:01,285 -  * Restarting with stat
+2025-03-04 19:02:04,862 -  * Debugger is active!
+2025-03-04 19:02:04,873 -  * Debugger PIN: 117-451-080
+2025-03-04 19:04:28,486 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 19:04:28,486 - [33mPress CTRL+C to quit[0m
+2025-03-04 19:04:28,492 -  * Restarting with stat
+2025-03-04 19:04:31,453 -  * Debugger is active!
+2025-03-04 19:04:31,468 -  * Debugger PIN: 117-451-080
+2025-03-04 19:10:46,836 - Error in /predict: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2025-03-04 19:10:46,837 - 127.0.0.1 - - [04/Mar/2025 19:10:46] "POST /predict HTTP/1.1" 200 -
+2025-03-04 19:11:15,999 - Received Features: [5.1, 3.5, 1.4, 0.2]
+2025-03-04 19:11:16,000 - Data scaled successfully.
+2025-03-04 19:11:16,015 - Prediction: 0
+2025-03-04 19:11:16,026 - Timestamp: 2025-03-04 19:11:16, Flower Type: Iris Setosa, Confidence: 100.00%, Processing Time: 0.0262 sec
+2025-03-04 19:11:16,027 - 127.0.0.1 - - [04/Mar/2025 19:11:16] "POST /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,010 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,017 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,020 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,024 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,029 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,038 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,043 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,047 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,050 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,057 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:13:56,062 - 127.0.0.1 - - [04/Mar/2025 19:13:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:16:38,415 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 19:16:38,416 - [33mPress CTRL+C to quit[0m
+2025-03-04 19:16:38,418 -  * Restarting with stat
+2025-03-04 19:16:40,816 -  * Debugger is active!
+2025-03-04 19:16:40,823 -  * Debugger PIN: 117-451-080
+2025-03-04 19:17:16,814 - Generated Random Features: [7.456771853243849, 4.454397719875939, 3.885372343671543, 0.23423720687250738]
+2025-03-04 19:17:16,815 - Random data scaled successfully.
+2025-03-04 19:17:16,833 - Random Prediction: 0
+2025-03-04 19:17:16,849 - 127.0.0.1 - - [04/Mar/2025 19:17:16] "GET /random_prediction HTTP/1.1" 200 -
+2025-03-04 19:17:37,190 - Received Features: [5.1, 3.5, 1.4, 0.2]
+2025-03-04 19:17:37,190 - Data scaled successfully.
+2025-03-04 19:17:37,197 - Prediction: 0
+2025-03-04 19:17:37,201 - Timestamp: 2025-03-04 19:17:37, Flower Type: Iris Setosa, Confidence: 100.00%, Processing Time: 0.0106 sec
+2025-03-04 19:17:37,201 - 127.0.0.1 - - [04/Mar/2025 19:17:37] "POST /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,695 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,696 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,697 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,700 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,700 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,702 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,716 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,718 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,720 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,721 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:00,723 - 127.0.0.1 - - [04/Mar/2025 19:18:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:01,699 - Generated Random Features: [4.125621662984497, 2.733957096146807, 5.938615883519832, 1.6414380511111935]
+2025-03-04 19:18:01,700 - Random data scaled successfully.
+2025-03-04 19:18:01,714 - Random Prediction: 2
+2025-03-04 19:18:01,734 - 127.0.0.1 - - [04/Mar/2025 19:18:01] "GET /random_prediction HTTP/1.1" 200 -
+2025-03-04 19:18:03,121 - Generated Random Features: [5.357630046855261, 2.2963984390888013, 4.063707737573873, 0.549229046934615]
+2025-03-04 19:18:03,123 - Random data scaled successfully.
+2025-03-04 19:18:03,137 - Random Prediction: 0
+2025-03-04 19:18:03,151 - 127.0.0.1 - - [04/Mar/2025 19:18:03] "GET /random_prediction HTTP/1.1" 200 -
+2025-03-04 19:18:15,149 - Generated Random Features: [6.19692244802922, 2.935056068867681, 1.7925728923708306, 1.037084838146205]
+2025-03-04 19:18:15,150 - Random data scaled successfully.
+2025-03-04 19:18:15,163 - Random Prediction: 1
+2025-03-04 19:18:15,177 - 127.0.0.1 - - [04/Mar/2025 19:18:15] "GET /random_prediction HTTP/1.1" 200 -
+2025-03-04 19:18:16,118 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,121 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,122 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,128 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,131 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,137 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,145 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,149 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,152 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,156 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:16,163 - 127.0.0.1 - - [04/Mar/2025 19:18:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:18:34,965 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 19:18:34,966 - [33mPress CTRL+C to quit[0m
+2025-03-04 19:18:34,968 -  * Restarting with stat
+2025-03-04 19:18:37,394 -  * Debugger is active!
+2025-03-04 19:18:37,401 -  * Debugger PIN: 117-451-080
+2025-03-04 19:18:49,992 - Timestamp: 2025-03-04 19:18:49, Features: [5.1, 3.5, 1.4, 0.2], Prediction: 0, Flower Type: Iris Setosa, Processing Time: 0.0135 sec
+2025-03-04 19:18:49,993 - 127.0.0.1 - - [04/Mar/2025 19:18:49] "POST /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,097 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,098 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,101 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,103 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,105 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,107 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,110 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,119 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,127 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,132 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:19,139 - 127.0.0.1 - - [04/Mar/2025 19:20:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-03-04 19:20:59,795 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 19:20:59,795 - [33mPress CTRL+C to quit[0m
+2025-03-04 19:20:59,798 -  * Restarting with stat
+2025-03-04 19:21:02,780 -  * Debugger is active!
+2025-03-04 19:21:02,792 -  * Debugger PIN: 117-451-080
+2025-03-04 19:22:44,487 - Received Features: [6.0, 3.0, 4.5, 1.5]
+2025-03-04 19:22:44,488 - Data scaled successfully.
+2025-03-04 19:22:44,501 - Prediction: 1
+2025-03-04 19:22:44,509 - Timestamp: 2025-03-04 19:22:44, Flower Type: Iris Versicolor, Confidence: 100.00%, Processing Time: 0.0230 sec
+2025-03-04 19:22:44,511 - 127.0.0.1 - - [04/Mar/2025 19:22:44] "POST /predict HTTP/1.1" 200 -
+2025-03-04 21:18:27,518 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 21:18:27,518 - [33mPress CTRL+C to quit[0m
+2025-03-04 21:18:27,519 -  * Restarting with stat
+2025-03-04 21:18:28,977 -  * Debugger is active!
+2025-03-04 21:18:28,982 -  * Debugger PIN: 117-451-080
+2025-03-04 21:20:44,884 - Received Features: [6.0, 3.0, 4.5, 1.5]
+2025-03-04 21:20:44,885 - Data scaled successfully.
+2025-03-04 21:20:44,889 - Prediction: 1
+2025-03-04 21:20:44,892 - Timestamp: 2025-03-04 21:20:44, Flower Type: Iris Versicolor, Confidence: 100.00%, Processing Time: 0.0080 sec
+2025-03-04 21:20:44,892 - 127.0.0.1 - - [04/Mar/2025 21:20:44] "POST /predict HTTP/1.1" 200 -
